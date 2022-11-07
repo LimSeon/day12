@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!-- 문서의 유효성을 검사해주는 역할 : 문서에 맞지 않는 양식이 들어오면 알리는 역할 -->
+<properties>
+	<entry key="insertOrder">
+		INSERT
+		  INTO
+		        TB_ORDER
+		VALUES
+		        (
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        ?,
+		        SYSDATE
+		        )
+	</entry>
+	
+	<entry key="selectOrderList">
+		SELECT * FROM TB_ORDER
+	</entry>
+
+
+</properties>
